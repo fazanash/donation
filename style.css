@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+a {
+    text-decoration: none !important;
+}
+p {
+    margin: 0;
+}
+
+/* Header Start */
+header .top-header {
+    background-color: #049242;
+    display: flex;
+    padding: 1rem;
+    color: white;
+}
+header .top-header .left-side, header .top-header .right-side   {
+    flex-basis: 50%;
+    display: flex;
+}
+header .top-header .right-side {
+    justify-content: flex-end;
+}
+header .top-header p {
+    display: inline-block;
+    margin: 0 .2rem;
+}
+header .top-header .status {
+    font-weight: 700;
+}
+header .top-header .social-media {
+    margin-left: .5rem;
+}
+header .top-header a {
+    color: white;
+    padding: .2rem;
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    padding: 2rem;
+}
+.hero .left-side {
+    padding-right: 200px;
+}
+.hero .left-side h1{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 65px;
+}
+.hero .left-side p {
+    font-size: 24px;
+}
+.hero .left-side .donasi {
+    background-color: #049242;
+    padding: 0.5rem 2.5rem;
+    color: white;
+}
